@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test Description">
+    <title>Room</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="preloader w-100 h-100"></div>
+    <header class="position-fixed py-5 px-4">
+      <div class="container d-flex">
+        <div class="hamburger d-block d-xl-none"><img src="./../media/imgs/icon-hamburger.svg"></div>
+        <div class="logo px-4"><img src="./media/imgs/logo.svg"></div>
+        <div class="nav d-xl-block d-none">
+          <ul class="d-flex justify-content-around gap-4">
+            <li class="px-3"><a class="text-decoration-none" href="#home">home</a></li>
+            <li class="px-3"><a class="text-decoration-none" href="#shop">shop</a></li>
+            <li class="px-3"><a class="text-decoration-none" href="#about">about</a></li>
+            <li class="px-3"><a class="text-decoration-none" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="megamenu position-absolute px-4">
+        <div class="megamenu-nav">
+          <ul class="d-flex p-0 justify-content-around gap-3 align-items-center">
+            <li class="close px-3"><img src="./media/imgs/icon-close.svg"></li>
+            <li class="px-2"><a class="text-decoration-none" href="#home">home</a></li>
+            <li class="px-2"><a class="text-decoration-none" href="#shop">shop</a></li>
+            <li class="px-2"><a class="text-decoration-none" href="#about">about</a></li>
+            <li class="px-2"><a class="text-decoration-none" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="landing">
+      <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
+        <div class="carousel-inner col-8">
+          <div class="carousel-item w-100 active" data-bs-interval="5000"><img class="col-12 col-xl-7 d-block img-fluid" src="./media/imgs/desktop-image-hero-1.jpg" alt="...">
+            <div class="bg-white carousel-caption-test col-12 col-xl-5 d-block pt-5 px-5">
+              <h2 class="py-3">Discover innovative ways to decorate</h2>
+              <p>We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p><a class="text-decoration-none" href="#"><span class="text-uppercase">Shop Now</span><img class="px-3" src="./media/imgs/icon-arrow.svg"></a>
+            </div>
+          </div>
+          <div class="carousel-item w-100" data-bs-interval="5000"><img class="col-12 col-xl-7 d-block img-fluid" src="./media/imgs/desktop-image-hero-2.jpg" alt="...">
+            <div class="bg-white carousel-caption-test col-12 col-xl-5 d-block pt-5 px-5">
+              <h2 class="py-3">We are available all across the globe</h2>
+              <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p><a class="text-decoration-none" href="#"><span class="text-uppercase">Shop Now</span><img class="px-3" src="./media/imgs/icon-arrow.svg"></a>
+            </div>
+          </div>
+          <div class="carousel-item w-100" data-bs-interval="5000"><img class="col-12 col-xl-7 d-block img-fluid" src="./media/imgs/desktop-image-hero-3.jpg" alt="...">
+            <div class="bg-white carousel-caption-test col-12 col-xl-5 d-block pt-5 px-5">
+              <h2 class="py-3">Manufactured with the best materials</h2>
+              <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p><a class="text-decoration-none" href="#"><span class="text-uppercase">Shop Now</span><img class="px-3" src="./media/imgs/icon-arrow.svg"></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="false"></span><span class="visually-hidden">Previous</span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+      </div>
+    </div>
+    <div class="about d-flex flex-xl-row flex-column mt-4 mt-xl-0">
+      <div class="image mycol-10 mycol-xl-3"><img class="img-fluid" src="./media/imgs/image-about-dark.jpg"></div>
+      <div class="text mycol-10 mycol-xl-4 py-5 px-4">
+        <h4 class="text-uppercase">About our furniture</h4>
+        <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <div class="image mycol-10 mycol-xl-3"><img class="img-fluid" src="./media/imgs/image-about-light.jpg"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+</html>
